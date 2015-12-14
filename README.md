@@ -1,4 +1,4 @@
-Study
+生命不息，奋斗不止
 =====
 
-Study the new technology.
+学习新知识和新技术的成果，就放到这。

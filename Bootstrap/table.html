@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 表格</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+ 
+    <table class="table">
+       <caption><strong>基本的表格布局</strong></caption>
+       <thead>
+          <tr>
+             <th>名称</th>
+             <th>城市</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Tanmay</td>
+             <td>Bangalore</td>
+          </tr>
+          <tr>
+             <td>Sachin</td>
+             <td>Mumbai</td>
+          </tr>
+       </tbody>
+    </table> 
+
+    <table class="table table-striped">
+       <caption><strong>条纹表格布局</strong><small>---通过添加 .table-striped class，您将在 <tbody> 内的行上看到条纹</small>/caption>
+       <thead>
+          <tr>
+             <th>名称</th>
+             <th>城市</th>
+             <th>编码</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Tanmay</td>
+             <td>Bangalore</td>
+             <td>560001</td>
+          </tr>
+          <tr>
+             <td>Sachin</td>
+             <td>Mumbai</td>
+             <td>400003</td>
+          </tr>
+          <tr>
+             <td>Uma</td>
+             <td>Pune</td>
+             <td>411027</td>
+          </tr>
+       </tbody>
+    </table>
+
+    <table class="table table-bordered">
+       <caption><strong>边框表格布局</strong><small>---每个元素周围都有边框，且占整个表格是圆角的</small></caption>
+       <thead>
+          <tr>
+             <th>名称</th>
+             <th>城市</th>
+             <th>编码</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Tanmay</td>
+             <td>Bangalore</td>
+             <td>560001</td>
+          </tr>
+          <tr>
+             <td>Sachin</td>
+             <td>Mumbai</td>
+             <td>400003</td>
+          </tr>
+          <tr>
+             <td>Uma</td>
+             <td>Pune</td>
+             <td>411027</td>
+          </tr>
+       </tbody>
+    </table>
+
+    <table class="table table-hover">
+       <caption><strong>悬停表格布局</strong><small>---通过添加 .table-hover class，当指针悬停在行上时会出现浅灰色背景</small></caption>
+       <thead>
+          <tr>
+             <th>名称</th>
+             <th>城市</th>
+             <th>编码</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Tanmay</td>
+             <td>Bangalore</td>
+             <td>560001</td>
+          </tr>
+          <tr>
+             <td>Sachin</td>
+             <td>Mumbai</td>
+             <td>400003</td>
+          </tr>
+          <tr>
+             <td>Uma</td>
+             <td>Pune</td>
+             <td>411027</td>
+          </tr>
+       </tbody>
+    </table>
+
+    <table class="table table-condensed">
+       <caption><strong>精简表格布局</strong><small>---通过添加 .table-condensed class，行内边距（padding）被切为两半，以便让表看起来更紧凑</small></caption>
+       <thead>
+          <tr>
+             <th>名称</th>
+             <th>城市</th>
+             <th>编码</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr>
+             <td>Tanmay</td>
+             <td>Bangalore</td>
+             <td>560001</td>
+          </tr>
+          <tr>
+             <td>Sachin</td>
+             <td>Mumbai</td>
+             <td>400003</td>
+          </tr>
+          <tr>
+             <td>Uma</td>
+             <td>Pune</td>
+             <td>411027</td>
+          </tr>
+       </tbody>
+    </table>
+
+    <table class="table">
+       <caption>上下文表格布局</caption>
+       <thead>
+          <tr>
+             <th>产品</th>
+             <th>付款日期</th>
+             <th>状态</th>
+             <th>说明</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr class="active">
+             <td>产品1</td>
+             <td>23/11/2013</td>
+             <td>待发货</td>
+             <td>采用了active类</td>
+          </tr>
+          <tr class="success">
+             <td>产品2</td>
+             <td>10/11/2013</td>
+             <td>发货中</td>
+             <td>采用了success类</td>
+          </tr>
+          <tr  class="warning">
+             <td>产品3</td>
+             <td>20/10/2013</td>
+             <td>待确认</td>
+             <td>采用了warning类</td>
+          </tr>
+          <tr  class="danger">
+             <td>产品4</td>
+             <td>20/10/2013</td>
+             <td>已退货</td>
+             <td>采用了danger类</td>
+          </tr>
+       </tbody>
+    </table>
+
+    <div class="table-responsive">
+       <table class="table">
+          <caption>响应式表格布局</caption>
+       <thead>
+          <tr>
+             <th>产品</th>
+             <th>付款日期</th>
+             <th>状态</th>
+             <th>说明</th>
+          </tr>
+       </thead>
+       <tbody>
+          <tr class="active">
+             <td>产品1</td>
+             <td>23/11/2013</td>
+             <td>待发货</td>
+             <td>采用了active类</td>
+          </tr>
+          <tr class="success">
+             <td>产品2</td>
+             <td>10/11/2013</td>
+             <td>发货中</td>
+             <td>采用了success类</td>
+          </tr>
+          <tr  class="warning">
+             <td>产品3</td>
+             <td>20/10/2013</td>
+             <td>待确认</td>
+             <td>采用了warning类</td>
+          </tr>
+          <tr  class="danger">
+             <td>产品4</td>
+             <td>20/10/2013</td>
+             <td>已退货</td>
+             <td>采用了danger类</td>
+          </tr>
+        </tbody>
+       </table>
+    </div>  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

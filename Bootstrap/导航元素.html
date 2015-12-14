@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 导航元素</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <p>标签式的导航菜单</p>
+    <ul class="nav nav-tabs">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+    <br/>
+    <p>基本的胶囊式导航菜单</p>
+    <ul class="nav nav-pills">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+    <br/>
+    <p>垂直的胶囊式导航菜单</p>
+    <ul class="nav nav-pills nav-stacked">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+    <br>
+    <p>两端对齐的导航元素</p>
+    <ul class="nav nav-pills nav-justified">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul><br><br><br>
+
+    <ul class="nav nav-tabs nav-justified">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul> 
+    <br>
+    <p>导航元素中的禁用链接</p>
+    <ul class="nav nav-pills">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li class="disabled"><a href="#">iOS（禁用链接）</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul><br><br>
+
+    <ul class="nav nav-tabs">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li  class="disabled"><a href="#">VB.Net（禁用链接）</a></li>
+       <li><a href="#">Java</a></li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+    <br>
+    <p>带有下拉菜单的标签</p>
+    <ul class="nav nav-tabs">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+             Java <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+             <li><a href="#">Swing</a></li>
+             <li><a href="#">jMeter</a></li>
+             <li><a href="#">EJB</a></li>
+             <li class="divider"></li>
+             <li><a href="#">分离的链接</a></li>
+          </ul>
+       </li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+    <br>
+    <p>带有下拉菜单的胶囊</p>
+    <ul class="nav nav-pills">
+       <li class="active"><a href="#">Home</a></li>
+       <li><a href="#">SVN</a></li>
+       <li><a href="#">iOS</a></li>
+       <li><a href="#">VB.Net</a></li>
+       <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+             Java <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+             <li><a href="#">Swing</a></li>
+             <li><a href="#">jMeter</a></li>
+             <li><a href="#">EJB</a></li>
+             <li class="divider"></li>
+             <li><a href="#">分离的链接</a></li>
+          </ul>
+       </li>
+       <li><a href="#">PHP</a></li>
+    </ul>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
